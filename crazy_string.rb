@@ -3,7 +3,7 @@
 def crazy_strings(a,b)
  a.reverse.upcase
  b.swapcase.gsub("s","z")
- return "#{a}#{b}"
+ puts "#{a}#{b}"
 end
 
 crazy_strings("hello","man")
